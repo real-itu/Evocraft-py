@@ -122,7 +122,8 @@ On the server command line, you can use /tp @p x y z to teleport yourself to pos
 
 In this section we'll compile implementations of evolutionary algorithms using the API
 
- - [**Interactive evolution**](https://github.com/claireaoi/EvoCraft-interactive): Evolve Minecraft entities interactively 
+ - [**Interactive evolution**](https://github.com/claireaoi/EvoCraft-interactive): Evolve Minecraft entities interactively.
+ - [**Simple tower evolution in Python**](https://github.com/real-itu/simple_minecraft_evolver): Evolve tower that reach for a golden block in the sky.
 
 
 
