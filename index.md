@@ -7,6 +7,9 @@ As part of this competition, we introduce the Minecraft Mechanical Creations Env
 
 In contrast to the Minecraft Settlement Generation Challenge, this competition is more about - but not exclusively focused on - the evolution of mechanical/functional artefacts.
 
+## Discord channel
+https://discord.gg/vp65KUJ69R
+
 ## Submission deadline:
 2021-06-01
 
