@@ -10,9 +10,11 @@ In contrast to the Minecraft Settlement Generation Challenge, this competition i
 ## Discord channel
 https://discord.gg/vp65KUJ69R
 
+## Link to paper
+https://arxiv.org/abs/2012.04751
+
 ## Submission deadline:
 2021-06-01
-
 
 ## Organizers:
 
