@@ -126,6 +126,17 @@ On the server command line, you can use /tp @p x y z to teleport yourself to pos
 
 </br>  
 
+### 5. Running in docker
+
+1. install dev dependencies with `python -m pip install -r requirements-dev.txt`
+2. Create & start server in docker by running `sh start_server.sh`
+   1. If this doesn't work you can just run the docker-compose steps individually with:
+      1. `docker-compose up`
+      2. `docker-compose exec evocraft-server bash -c "java -jar spongevanilla-1.12.2-7.3.0.jar"`
+3. You can also remove the images with `python remove_server_image.py`
+
+After steps 1-2, you should now be able to interact with the server console and also connect in the minecraft ui like before
+
 # Evolutionary algorithms implemented with the API
 
 In this section we'll compile implementations of evolutionary algorithms using the API
