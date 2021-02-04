@@ -3,7 +3,7 @@ import grpc
 import minecraft_pb2_grpc
 from minecraft_pb2 import *
 
-channel = grpc.insecure_channel('localhost:5001')
+channel = grpc.insecure_channel('localhost:5002')
 client = minecraft_pb2_grpc.MinecraftServiceStub(channel)
 
 client.fillCube(FillCubeRequest(  # Clear a 20x10x20 working area

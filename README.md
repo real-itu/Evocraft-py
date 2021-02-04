@@ -81,7 +81,7 @@ import grpc
 import minecraft_pb2_grpc
 from minecraft_pb2 import *
 
-channel = grpc.insecure_channel('localhost:5001')
+channel = grpc.insecure_channel('localhost:5002')
 client = minecraft_pb2_grpc.MinecraftServiceStub(channel)
 
 blocks = client.readCube(Cube(
@@ -136,6 +136,13 @@ On the server command line, you can use /tp @p x y z to teleport yourself to pos
 3. You can also remove the images with `python remove_server_image.py`
 
 After steps 1-2, you should now be able to interact with the server console and also connect in the minecraft ui like before
+
+
+### 6. Running multiple minecraft and grpc servers with docker
+1. build container with `sh build-image.sh`
+2. run `python manage_evocraft_servers.py` (use `--help` to see options)
+3. You should see the containers with `docker ps -a`. 
+4. The container names correspond to grpc port and minecraft port, for instance `evocraft-server_grpc53257_minecraft_server35495` has the grpc port 53257 and minecraft server port 35495
 
 # Evolutionary algorithms implemented with the API
 

@@ -6,7 +6,7 @@ services:
             dockerfile: Dockerfile
         image: evocraft-server:latest
         ports:
-            - "5001:5001"
+            - "5002:5001"
             - "25565:25565"
         stdin_open: true
         tty: true
