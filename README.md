@@ -133,16 +133,30 @@ On the server command line, you can use /tp @p x y z to teleport yourself to pos
    1. If this doesn't work you can just run the docker-compose steps individually with:
       1. `docker-compose up`
       2. `docker-compose exec evocraft-server bash -c "java -jar spongevanilla-1.12.2-7.3.0.jar"`
-3. You can also remove the images with `python remove_server_image.py`
+3. You should be able to see `evocraft-server` w/ `docker -ps`
+4. tear down the server with `docker-compose down`
+5. You can also remove the images with `python remove_server_image.py`
 
 After steps 1-2, you should now be able to interact with the server console and also connect in the minecraft ui like before
 
 
 ### 6. Running multiple minecraft and grpc servers with docker
 1. build container with `sh build-image.sh`
-2. run `python manage_evocraft_servers.py` (use `--help` to see options)
-3. You should see the containers with `docker ps -a`. 
-4. The container names correspond to grpc port and minecraft port, for instance `evocraft-server_grpc53257_minecraft_server35495` has the grpc port 53257 and minecraft server port 35495
+2. run `python spawn_evocraft_servers.py` (use `--help` to see options)
+```
+   Options:
+     --kill_servers         set to true to kill servers
+     --num_servers INTEGER  Number of servers
+     --memory_limit TEXT    Memory limit for each container
+     --cpu_shares FLOAT     CPU allocation for each container
+     --help                 Show this message and exit.
+```
+3. Example:
+    `python spawn_evocraft_servers.py --num_servers 5 --memory_limit="1gb" --cpu_shares=1.5`
+    - spawns 5 servers in separate docker containers each with 1gb of ram and 1.5 cpus allocated
+4. You should see the containers with `docker ps -a`.
+5. The container names correspond to grpc port and minecraft port, for instance `evocraft-server_grpc53257_minecraft_server35495` has the grpc port 53257 and minecraft server port 35495
+6. tear down all servers with `python spawn_evocraft_servers.py --kill_servers`
 
 # Evolutionary algorithms implemented with the API
 

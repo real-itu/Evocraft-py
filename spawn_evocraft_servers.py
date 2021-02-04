@@ -88,7 +88,7 @@ def run_minecraft_servers(num_servers = 1, cpu_shares=1.0, mem_limit="500mb"):
 @click.option('--num_servers', default=1, type=click.INT, help='Number of servers')
 @click.option('--memory_limit', default="2gb", help='Memory limit for each container')
 @click.option("--cpu_shares", default=1.0,type=click.FLOAT, help="CPU allocation for each container")
-def manage_evocraft_servers(kill_servers: bool, num_servers: int, memory_limit: str, cpu_shares: float):
+def spawn_evocraft_servers(kill_servers: bool, num_servers: int, memory_limit: str, cpu_shares: float):
     if kill_servers:
         print("Killing servers")
         return kill_all_servers()
@@ -96,4 +96,4 @@ def manage_evocraft_servers(kill_servers: bool, num_servers: int, memory_limit: 
     return run_minecraft_servers(num_servers, cpu_shares, memory_limit)
 
 if __name__ == "__main__":
-    manage_evocraft_servers()
+    spawn_evocraft_servers()
