@@ -1,6 +1,14 @@
-# Evocraft-py
+<div align="center">    
+ 
+# Evocraft-py  
+
+[![Paper](https://img.shields.io/badge/paper-arxiv.2007.02686-B31B1B.svg)](https://arxiv.org/abs/2012.04751)
+[![Conference](https://img.shields.io/badge/EvoStar-2021-4b44ce.svg)]()
+
 A Python interface for Minecraft built on [grpc](https://github.com/real-itu/minecraft-rpc). 
-<br />
+
+</div>
+
 
 ### 1. Set-up
 
@@ -30,7 +38,7 @@ This means it's working and the Minecraft server is ready for commands on port 5
 	- `defaultgamemode creative` to set the default mode to creative;
 	-  `setworldspawn x y z` to set the default player spawn point;
 	- `time set day` to set time to day;
-	- `/gamerule doDaylightCycle false` stop the day/night cycle;
+	- `gamerule doDaylightCycle false` stop the day/night cycle;
 	- `gamemode creative <player name>` set creative mode for a specific player (sometimes the default isn't working);
 	- `teleport <player name> x y z` teleport a player to x,y,z coordinates.
 	
