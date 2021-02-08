@@ -1,0 +1,4 @@
+[submodule "Evocraft-py"]
+	path = Evocraft-py
+	url = git@github.com:real-itu/Evocraft-py.git
+	branch = master

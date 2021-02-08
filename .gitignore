@@ -4,3 +4,5 @@ __pycache__/
 .pyc
 .vscode/
 *.pyc
+minecraft_pb2.py
+minecraft_pb2_grpc.py
