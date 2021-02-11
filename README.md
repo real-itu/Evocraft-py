@@ -1,6 +1,14 @@
-# Evocraft-py
+<div align="center">    
+ 
+# Evocraft-py  
+
+[![Paper](https://img.shields.io/badge/paper-arxiv.2007.02686-B31B1B.svg)](https://arxiv.org/abs/2012.04751)
+[![Conference](https://img.shields.io/badge/EvoStar-2021-4b44ce.svg)]()
+
 A Python interface for Minecraft built on [grpc](https://github.com/real-itu/minecraft-rpc). 
-<br />
+
+</div>
+
 
 ### 1. Set-up
 
@@ -26,11 +34,11 @@ A Python interface for Minecraft built on [grpc](https://github.com/real-itu/min
 2. The first time you try to start the server a texfile eula.txt with be generated, you need to modifying its last line to `eula=true` to accept the Minecraft EULA. Now running `java -jar spongevanilla-1.12.2-7.3.0.jar` will start the server
 3. You should see a bunch of outputs including `[... INFO]: Listening on 5001`. 
 This means it's working and the Minecraft server is ready for commands on port 5001.
-4. Useful commands that you can type in the runing server console:
+4. Useful commands that you can type in the running server console:
 	- `defaultgamemode creative` to set the default mode to creative;
 	-  `setworldspawn x y z` to set the default player spawn point;
 	- `time set day` to set time to day;
-	- `/gamerule doDaylightCycle false` stop the day/night cycle;
+	- `gamerule doDaylightCycle false` stop the day/night cycle;
 	- `gamemode creative <player name>` set creative mode for a specific player (sometimes the default isn't working);
 	- `teleport <player name> x y z` teleport a player to x,y,z coordinates.
 	
