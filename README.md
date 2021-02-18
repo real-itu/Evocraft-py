@@ -41,7 +41,7 @@ This means it's working and the Minecraft server is ready for commands on port 5
 There are three methods at the core of the API: `spawnBlocks` spawns a set of different blocks,
 `fillCube` spawns a single type of block over a cubic volume and `readCube` which reads currently spawned blocks within a space.
 
-If you aren't a seasoned Minecraft scholar, you can check [information about about different Minecraft blocks](https://minecraft.gamepedia.com/Block).
+If you aren't a seasoned Minecraft scholar, you can check [information about different Minecraft blocks](https://minecraft.gamepedia.com/Block).
 
 Here's [example](example.py) on how to spawn a flying machine with python (you'll need to have started the modded Minecraft server before):
 
