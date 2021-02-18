@@ -34,19 +34,14 @@ A Python interface for Minecraft built on [grpc](https://github.com/real-itu/min
 2. The first time you try to start the server a texfile eula.txt with be generated, you need to modifying its last line to `eula=true` to accept the Minecraft EULA. Now running `java -jar spongevanilla-1.12.2-7.3.0.jar` will start the server
 3. You should see a bunch of outputs including `[... INFO]: Listening on 5001`. 
 This means it's working and the Minecraft server is ready for commands on port 5001.
-4. Useful commands that you can type in the running server console:
-	- `defaultgamemode creative` to set the default mode to creative;
-	-  `setworldspawn x y z` to set the default player spawn point;
-	- `time set day` to set time to day;
-	- `gamerule doDaylightCycle false` stop the day/night cycle;
-	- `gamemode creative <player name>` set creative mode for a specific player (sometimes the default isn't working);
-	- `teleport <player name> x y z` teleport a player to x,y,z coordinates.
 	
 
 ### 3. Spawn blocks on the Minecraft server with Python 
 
 There are three methods at the core of the API: `spawnBlocks` spawns a set of different blocks,
 `fillCube` spawns a single type of block over a cubic volume and `readCube` which reads currently spawned blocks within a space.
+
+If you aren't a seasoned Minecraft scholar, you can check [information about about different Minecraft blocks](https://minecraft.gamepedia.com/Block).
 
 Here's [example](example.py) on how to spawn a flying machine with python (you'll need to have started the modded Minecraft server before):
 
@@ -125,6 +120,15 @@ You can use the method `client.readCube` that allows to read which blocks are sp
    5. `Join Server`
 
 On the server command line, you can use /tp @p x y z to teleport yourself to position {x,y,z} in the world.
+
+### 5. Useful commands that you can type in the running server console
+
+- `defaultgamemode creative` to set the default mode to creative;
+-  `setworldspawn x y z` to set the default player spawn point;
+- `time set day` to set time to day;
+- `gamerule doDaylightCycle false` stop the day/night cycle;
+- `gamemode creative <player name>` set creative mode for a specific player (sometimes the default isn't working);
+- `teleport <player name> x y z` teleport a player to x,y,z coordinates.
 
 ### Et voilà:
 
