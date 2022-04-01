@@ -30,12 +30,10 @@ A Python interface for Minecraft built on [grpc](https://github.com/real-itu/min
 
 ### 2. Starting the modded Minecraft server
 
-1. From `Evocraft-py`, start the server with `java -jar spongevanilla-1.12.2-7.3.0.jar`
-2. The first time you try to start the server a texfile eula.txt with be generated, you need to modifying its last line to `eula=true` to accept the Minecraft EULA. Now running `java -jar spongevanilla-1.12.2-7.3.0.jar` will start the server
+1. From `Evocraft-py` folder, start the server with `java -jar spongevanilla-1.12.2-7.3.0.jar`
+2. The first time you try to start the server a texfile eula.txt with be generated, you need to modify its last line to `eula=true` to accept the Minecraft EULA. Now running `java -jar spongevanilla-1.12.2-7.3.0.jar` will start the server
 3. You should see a bunch of outputs including `[... INFO]: Listening on 5001`. 
 This means it's working and the Minecraft server is ready for commands on port 5001.
-
-**Note**: if you get an SSL error in step 1, try another connection (Institutions like labs can block access).
 	
 
 ### 3. Spawn blocks on the Minecraft server with Python 
