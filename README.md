@@ -138,13 +138,16 @@ On the server command line, you can use /tp @p x y z to teleport yourself to pos
 
 </br>  
 
-# Evolutionary algorithms implemented with the API
+# Research projects using the EvoCraft API
 
 In this section we'll compile implementations of evolutionary algorithms using the API
 
  - [**Interactive evolution**](https://github.com/claireaoi/EvoCraft-interactive): Evolve Minecraft entities interactively.
  - [**Simple tower evolution in Python**](https://github.com/real-itu/simple_minecraft_evolver): Evolve tower that reach for a golden block in the sky.
-
+ - [**Evocraft 2021 winner**](https://github.com/GoodAI/EvocraftEntry): Novelty search and automated designer approaches to redstone circuit discovery.
+ - [**Meta-Diversity Search in Complex Systems,
+A Recipe for Artificial Open-Endedness**](https://github.com/mayalenE/evocraftsearch/)
+ - [**Open-ended creation of hybrid creatures with Neural Cellular Automata**](https://github.com/hugcis/hybrid-nca-evocraft)
 
 
 </br>  
