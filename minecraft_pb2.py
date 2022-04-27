@@ -21,7 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   syntax='proto3',
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_pb=b'\n\x0fminecraft.proto\x12\x0f\x64k.itu.real.ooe\x1a\x1bgoogle/protobuf/empty.proto\"P\n\x04\x43ube\x12#\n\x03min\x18\x01 \x01(\x0b\x32\x16.dk.itu.real.ooe.Point\x12#\n\x03max\x18\x02 \x01(\x0b\x32\x16.dk.itu.real.ooe.Point\"`\n\x0f\x46illCubeRequest\x12#\n\x04\x63ube\x18\x01 \x01(\x0b\x32\x15.dk.itu.real.ooe.Cube\x12(\n\x04type\x18\x02 \x01(\x0e\x32\x1a.dk.itu.real.ooe.BlockType\"0\n\x06\x42locks\x12&\n\x06\x62locks\x18\x01 \x03(\x0b\x32\x16.dk.itu.real.ooe.Block\"(\n\x05Point\x12\t\n\x01x\x18\x01 \x01(\x05\x12\t\n\x01y\x18\x02 \x01(\x05\x12\t\n\x01z\x18\x03 \x01(\x05\"\x8e\x01\n\x05\x42lock\x12(\n\x08position\x18\x01 \x01(\x0b\x32\x16.dk.itu.real.ooe.Point\x12(\n\x04type\x18\x02 \x01(\x0e\x32\x1a.dk.itu.real.ooe.BlockType\x12\x31\n\x0borientation\x18\x03 \x01(\x0e\x32\x1c.dk.itu.real.ooe.Orientation*I\n\x0bOrientation\x12\t\n\x05NORTH\x10\x00\x12\x08\n\x04WEST\x10\x01\x12\t\n\x05SOUTH\x10\x02\x12\x08\n\x04\x45\x41ST\x10\x03\x12\x06\n\x02UP\x10\x04\x12\x08\n\x04\x44OWN\x10\x05*\x9b%\n\tBlockType\x12\x0f\n\x0b\x41\x43\x41\x43IA_DOOR\x10\x00\x12\x10\n\x0c\x41\x43\x41\x43IA_FENCE\x10\x01\x12\x15\n\x11\x41\x43\x41\x43IA_FENCE_GATE\x10\x02\x12\x11\n\rACACIA_STAIRS\x10\x03\x12\x12\n\x0e\x41\x43TIVATOR_RAIL\x10\x04\x12\x07\n\x03\x41IR\x10\x05\x12\t\n\x05\x41NVIL\x10\x06\x12\x0b\n\x07\x42\x41RRIER\x10\x07\x12\n\n\x06\x42\x45\x41\x43ON\x10\x08\x12\x07\n\x03\x42\x45\x44\x10\t\x12\x0b\n\x07\x42\x45\x44ROCK\x10\n\x12\r\n\tBEETROOTS\x10\x0b\x12\x0e\n\nBIRCH_DOOR\x10\x0c\x12\x0f\n\x0b\x42IRCH_FENCE\x10\r\x12\x14\n\x10\x42IRCH_FENCE_GATE\x10\x0e\x12\x10\n\x0c\x42IRCH_STAIRS\x10\x0f\x12\x1b\n\x17\x42LACK_GLAZED_TERRACOTTA\x10\x10\x12\x15\n\x11\x42LACK_SHULKER_BOX\x10\x11\x12\x1a\n\x16\x42LUE_GLAZED_TERRACOTTA\x10\x12\x12\x14\n\x10\x42LUE_SHULKER_BOX\x10\x13\x12\x0e\n\nBONE_BLOCK\x10\x14\x12\r\n\tBOOKSHELF\x10\x15\x12\x11\n\rBREWING_STAND\x10\x16\x12\x0f\n\x0b\x42RICK_BLOCK\x10\x17\x12\x10\n\x0c\x42RICK_STAIRS\x10\x18\x12\x1b\n\x17\x42ROWN_GLAZED_TERRACOTTA\x10\x19\x12\x12\n\x0e\x42ROWN_MUSHROOM\x10\x1a\x12\x18\n\x14\x42ROWN_MUSHROOM_BLOCK\x10\x1b\x12\x15\n\x11\x42ROWN_SHULKER_BOX\x10\x1c\x12\n\n\x06\x43\x41\x43TUS\x10\x1d\x12\x08\n\x04\x43\x41KE\x10\x1e\x12\n\n\x06\x43\x41RPET\x10\x1f\x12\x0b\n\x07\x43\x41RROTS\x10 \x12\x0c\n\x08\x43\x41ULDRON\x10!\x12\x17\n\x13\x43HAIN_COMMAND_BLOCK\x10\"\x12\t\n\x05\x43HEST\x10#\x12\x11\n\rCHORUS_FLOWER\x10$\x12\x10\n\x0c\x43HORUS_PLANT\x10%\x12\x08\n\x04\x43LAY\x10&\x12\x0e\n\nCOAL_BLOCK\x10\'\x12\x0c\n\x08\x43OAL_ORE\x10(\x12\x0f\n\x0b\x43OBBLESTONE\x10)\x12\x14\n\x10\x43OBBLESTONE_WALL\x10*\x12\t\n\x05\x43OCOA\x10+\x12\x11\n\rCOMMAND_BLOCK\x10,\x12\x0c\n\x08\x43ONCRETE\x10-\x12\x13\n\x0f\x43ONCRETE_POWDER\x10.\x12\x12\n\x0e\x43RAFTING_TABLE\x10/\x12\x1a\n\x16\x43YAN_GLAZED_TERRACOTTA\x10\x30\x12\x14\n\x10\x43YAN_SHULKER_BOX\x10\x31\x12\x11\n\rDARK_OAK_DOOR\x10\x32\x12\x12\n\x0e\x44\x41RK_OAK_FENCE\x10\x33\x12\x17\n\x13\x44\x41RK_OAK_FENCE_GATE\x10\x34\x12\x13\n\x0f\x44\x41RK_OAK_STAIRS\x10\x35\x12\x15\n\x11\x44\x41YLIGHT_DETECTOR\x10\x36\x12\x1e\n\x1a\x44\x41YLIGHT_DETECTOR_INVERTED\x10\x37\x12\x0c\n\x08\x44\x45\x41\x44\x42USH\x10\x38\x12\x11\n\rDETECTOR_RAIL\x10\x39\x12\x11\n\rDIAMOND_BLOCK\x10:\x12\x0f\n\x0b\x44IAMOND_ORE\x10;\x12\x08\n\x04\x44IRT\x10<\x12\r\n\tDISPENSER\x10=\x12\x10\n\x0c\x44OUBLE_PLANT\x10>\x12\x15\n\x11\x44OUBLE_STONE_SLAB\x10?\x12\x16\n\x12\x44OUBLE_STONE_SLAB2\x10@\x12\x16\n\x12\x44OUBLE_WOODEN_SLAB\x10\x41\x12\x0e\n\nDRAGON_EGG\x10\x42\x12\x0b\n\x07\x44ROPPER\x10\x43\x12\x11\n\rEMERALD_BLOCK\x10\x44\x12\x0f\n\x0b\x45MERALD_ORE\x10\x45\x12\x14\n\x10\x45NCHANTING_TABLE\x10\x46\x12\x0f\n\x0b\x45NDER_CHEST\x10G\x12\x0e\n\nEND_BRICKS\x10H\x12\x0f\n\x0b\x45ND_GATEWAY\x10I\x12\x0e\n\nEND_PORTAL\x10J\x12\x14\n\x10\x45ND_PORTAL_FRAME\x10K\x12\x0b\n\x07\x45ND_ROD\x10L\x12\r\n\tEND_STONE\x10M\x12\x0c\n\x08\x46\x41RMLAND\x10N\x12\t\n\x05\x46\x45NCE\x10O\x12\x0e\n\nFENCE_GATE\x10P\x12\x08\n\x04\x46IRE\x10Q\x12\x0e\n\nFLOWER_POT\x10R\x12\x10\n\x0c\x46LOWING_LAVA\x10S\x12\x11\n\rFLOWING_WATER\x10T\x12\x0f\n\x0b\x46ROSTED_ICE\x10U\x12\x0b\n\x07\x46URNACE\x10V\x12\t\n\x05GLASS\x10W\x12\x0e\n\nGLASS_PANE\x10X\x12\r\n\tGLOWSTONE\x10Y\x12\x0f\n\x0bGOLDEN_RAIL\x10Z\x12\x0e\n\nGOLD_BLOCK\x10[\x12\x0c\n\x08GOLD_ORE\x10\\\x12\t\n\x05GRASS\x10]\x12\x0e\n\nGRASS_PATH\x10^\x12\n\n\x06GRAVEL\x10_\x12\x1a\n\x16GRAY_GLAZED_TERRACOTTA\x10`\x12\x14\n\x10GRAY_SHULKER_BOX\x10\x61\x12\x1b\n\x17GREEN_GLAZED_TERRACOTTA\x10\x62\x12\x15\n\x11GREEN_SHULKER_BOX\x10\x63\x12\x11\n\rHARDENED_CLAY\x10\x64\x12\r\n\tHAY_BLOCK\x10\x65\x12!\n\x1dHEAVY_WEIGHTED_PRESSURE_PLATE\x10\x66\x12\n\n\x06HOPPER\x10g\x12\x07\n\x03ICE\x10h\x12\r\n\tIRON_BARS\x10i\x12\x0e\n\nIRON_BLOCK\x10j\x12\r\n\tIRON_DOOR\x10k\x12\x0c\n\x08IRON_ORE\x10l\x12\x11\n\rIRON_TRAPDOOR\x10m\x12\x0b\n\x07JUKEBOX\x10n\x12\x0f\n\x0bJUNGLE_DOOR\x10o\x12\x10\n\x0cJUNGLE_FENCE\x10p\x12\x15\n\x11JUNGLE_FENCE_GATE\x10q\x12\x11\n\rJUNGLE_STAIRS\x10r\x12\n\n\x06LADDER\x10s\x12\x0f\n\x0bLAPIS_BLOCK\x10t\x12\r\n\tLAPIS_ORE\x10u\x12\x08\n\x04LAVA\x10v\x12\n\n\x06LEAVES\x10w\x12\x0b\n\x07LEAVES2\x10x\x12\t\n\x05LEVER\x10y\x12 \n\x1cLIGHT_BLUE_GLAZED_TERRACOTTA\x10z\x12\x1a\n\x16LIGHT_BLUE_SHULKER_BOX\x10{\x12!\n\x1dLIGHT_WEIGHTED_PRESSURE_PLATE\x10|\x12\x1a\n\x16LIME_GLAZED_TERRACOTTA\x10}\x12\x14\n\x10LIME_SHULKER_BOX\x10~\x12\x0f\n\x0bLIT_FURNACE\x10\x7f\x12\x10\n\x0bLIT_PUMPKIN\x10\x80\x01\x12\x16\n\x11LIT_REDSTONE_LAMP\x10\x81\x01\x12\x15\n\x10LIT_REDSTONE_ORE\x10\x82\x01\x12\x08\n\x03LOG\x10\x83\x01\x12\t\n\x04LOG2\x10\x84\x01\x12\x1e\n\x19MAGENTA_GLAZED_TERRACOTTA\x10\x85\x01\x12\x18\n\x13MAGENTA_SHULKER_BOX\x10\x86\x01\x12\n\n\x05MAGMA\x10\x87\x01\x12\x10\n\x0bMELON_BLOCK\x10\x88\x01\x12\x0f\n\nMELON_STEM\x10\x89\x01\x12\x10\n\x0bMOB_SPAWNER\x10\x8a\x01\x12\x10\n\x0bMONSTER_EGG\x10\x8b\x01\x12\x16\n\x11MOSSY_COBBLESTONE\x10\x8c\x01\x12\r\n\x08MYCELIUM\x10\x8d\x01\x12\x0f\n\nNETHERRACK\x10\x8e\x01\x12\x11\n\x0cNETHER_BRICK\x10\x8f\x01\x12\x17\n\x12NETHER_BRICK_FENCE\x10\x90\x01\x12\x18\n\x13NETHER_BRICK_STAIRS\x10\x91\x01\x12\x10\n\x0bNETHER_WART\x10\x92\x01\x12\x16\n\x11NETHER_WART_BLOCK\x10\x93\x01\x12\x0e\n\tNOTEBLOCK\x10\x94\x01\x12\x0f\n\nOAK_STAIRS\x10\x95\x01\x12\r\n\x08OBSERVER\x10\x96\x01\x12\r\n\x08OBSIDIAN\x10\x97\x01\x12\x1d\n\x18ORANGE_GLAZED_TERRACOTTA\x10\x98\x01\x12\x17\n\x12ORANGE_SHULKER_BOX\x10\x99\x01\x12\x0f\n\nPACKED_ICE\x10\x9a\x01\x12\x1b\n\x16PINK_GLAZED_TERRACOTTA\x10\x9b\x01\x12\x15\n\x10PINK_SHULKER_BOX\x10\x9c\x01\x12\x0b\n\x06PISTON\x10\x9d\x01\x12\x15\n\x10PISTON_EXTENSION\x10\x9e\x01\x12\x10\n\x0bPISTON_HEAD\x10\x9f\x01\x12\x0b\n\x06PLANKS\x10\xa0\x01\x12\x0b\n\x06PORTAL\x10\xa1\x01\x12\r\n\x08POTATOES\x10\xa2\x01\x12\x17\n\x12POWERED_COMPARATOR\x10\xa3\x01\x12\x15\n\x10POWERED_REPEATER\x10\xa4\x01\x12\x0f\n\nPRISMARINE\x10\xa5\x01\x12\x0c\n\x07PUMPKIN\x10\xa6\x01\x12\x11\n\x0cPUMPKIN_STEM\x10\xa7\x01\x12\x1d\n\x18PURPLE_GLAZED_TERRACOTTA\x10\xa8\x01\x12\x17\n\x12PURPLE_SHULKER_BOX\x10\xa9\x01\x12\x11\n\x0cPURPUR_BLOCK\x10\xaa\x01\x12\x17\n\x12PURPUR_DOUBLE_SLAB\x10\xab\x01\x12\x12\n\rPURPUR_PILLAR\x10\xac\x01\x12\x10\n\x0bPURPUR_SLAB\x10\xad\x01\x12\x12\n\rPURPUR_STAIRS\x10\xae\x01\x12\x11\n\x0cQUARTZ_BLOCK\x10\xaf\x01\x12\x0f\n\nQUARTZ_ORE\x10\xb0\x01\x12\x12\n\rQUARTZ_STAIRS\x10\xb1\x01\x12\t\n\x04RAIL\x10\xb2\x01\x12\x13\n\x0eREDSTONE_BLOCK\x10\xb3\x01\x12\x12\n\rREDSTONE_LAMP\x10\xb4\x01\x12\x11\n\x0cREDSTONE_ORE\x10\xb5\x01\x12\x13\n\x0eREDSTONE_TORCH\x10\xb6\x01\x12\x12\n\rREDSTONE_WIRE\x10\xb7\x01\x12\x0f\n\nRED_FLOWER\x10\xb8\x01\x12\x1a\n\x15RED_GLAZED_TERRACOTTA\x10\xb9\x01\x12\x11\n\x0cRED_MUSHROOM\x10\xba\x01\x12\x17\n\x12RED_MUSHROOM_BLOCK\x10\xbb\x01\x12\x15\n\x10RED_NETHER_BRICK\x10\xbc\x01\x12\x12\n\rRED_SANDSTONE\x10\xbd\x01\x12\x19\n\x14RED_SANDSTONE_STAIRS\x10\xbe\x01\x12\x14\n\x0fRED_SHULKER_BOX\x10\xbf\x01\x12\n\n\x05REEDS\x10\xc0\x01\x12\x1c\n\x17REPEATING_COMMAND_BLOCK\x10\xc1\x01\x12\t\n\x04SAND\x10\xc2\x01\x12\x0e\n\tSANDSTONE\x10\xc3\x01\x12\x15\n\x10SANDSTONE_STAIRS\x10\xc4\x01\x12\x0c\n\x07SAPLING\x10\xc5\x01\x12\x10\n\x0bSEA_LANTERN\x10\xc6\x01\x12\x1d\n\x18SILVER_GLAZED_TERRACOTTA\x10\xc7\x01\x12\x17\n\x12SILVER_SHULKER_BOX\x10\xc8\x01\x12\n\n\x05SKULL\x10\xc9\x01\x12\n\n\x05SLIME\x10\xca\x01\x12\t\n\x04SNOW\x10\xcb\x01\x12\x0f\n\nSNOW_LAYER\x10\xcc\x01\x12\x0e\n\tSOUL_SAND\x10\xcd\x01\x12\x0b\n\x06SPONGE\x10\xce\x01\x12\x10\n\x0bSPRUCE_DOOR\x10\xcf\x01\x12\x11\n\x0cSPRUCE_FENCE\x10\xd0\x01\x12\x16\n\x11SPRUCE_FENCE_GATE\x10\xd1\x01\x12\x12\n\rSPRUCE_STAIRS\x10\xd2\x01\x12\x12\n\rSTAINED_GLASS\x10\xd3\x01\x12\x17\n\x12STAINED_GLASS_PANE\x10\xd4\x01\x12\x1a\n\x15STAINED_HARDENED_CLAY\x10\xd5\x01\x12\x14\n\x0fSTANDING_BANNER\x10\xd6\x01\x12\x12\n\rSTANDING_SIGN\x10\xd7\x01\x12\x12\n\rSTICKY_PISTON\x10\xd8\x01\x12\n\n\x05STONE\x10\xd9\x01\x12\x0f\n\nSTONEBRICK\x10\xda\x01\x12\x17\n\x12STONE_BRICK_STAIRS\x10\xdb\x01\x12\x11\n\x0cSTONE_BUTTON\x10\xdc\x01\x12\x19\n\x14STONE_PRESSURE_PLATE\x10\xdd\x01\x12\x0f\n\nSTONE_SLAB\x10\xde\x01\x12\x10\n\x0bSTONE_SLAB2\x10\xdf\x01\x12\x11\n\x0cSTONE_STAIRS\x10\xe0\x01\x12\x14\n\x0fSTRUCTURE_BLOCK\x10\xe1\x01\x12\x13\n\x0eSTRUCTURE_VOID\x10\xe2\x01\x12\x0e\n\tTALLGRASS\x10\xe3\x01\x12\x08\n\x03TNT\x10\xe4\x01\x12\n\n\x05TORCH\x10\xe5\x01\x12\r\n\x08TRAPDOOR\x10\xe6\x01\x12\x12\n\rTRAPPED_CHEST\x10\xe7\x01\x12\r\n\x08TRIPWIRE\x10\xe8\x01\x12\x12\n\rTRIPWIRE_HOOK\x10\xe9\x01\x12\x19\n\x14UNLIT_REDSTONE_TORCH\x10\xea\x01\x12\x19\n\x14UNPOWERED_COMPARATOR\x10\xeb\x01\x12\x17\n\x12UNPOWERED_REPEATER\x10\xec\x01\x12\t\n\x04VINE\x10\xed\x01\x12\x10\n\x0bWALL_BANNER\x10\xee\x01\x12\x0e\n\tWALL_SIGN\x10\xef\x01\x12\n\n\x05WATER\x10\xf0\x01\x12\x0e\n\tWATERLILY\x10\xf1\x01\x12\x08\n\x03WEB\x10\xf2\x01\x12\n\n\x05WHEAT\x10\xf3\x01\x12\x1c\n\x17WHITE_GLAZED_TERRACOTTA\x10\xf4\x01\x12\x16\n\x11WHITE_SHULKER_BOX\x10\xf5\x01\x12\x12\n\rWOODEN_BUTTON\x10\xf6\x01\x12\x10\n\x0bWOODEN_DOOR\x10\xf7\x01\x12\x1a\n\x15WOODEN_PRESSURE_PLATE\x10\xf8\x01\x12\x10\n\x0bWOODEN_SLAB\x10\xf9\x01\x12\t\n\x04WOOL\x10\xfa\x01\x12\x12\n\rYELLOW_FLOWER\x10\xfb\x01\x12\x1d\n\x18YELLOW_GLAZED_TERRACOTTA\x10\xfc\x01\x12\x17\n\x12YELLOW_SHULKER_BOX\x10\xfd\x01\x32\xd4\x01\n\x10MinecraftService\x12>\n\x0bspawnBlocks\x12\x17.dk.itu.real.ooe.Blocks\x1a\x16.google.protobuf.Empty\x12:\n\x08readCube\x12\x15.dk.itu.real.ooe.Cube\x1a\x17.dk.itu.real.ooe.Blocks\x12\x44\n\x08\x66illCube\x12 .dk.itu.real.ooe.FillCubeRequest\x1a\x16.google.protobuf.Emptyb\x06proto3'
+  serialized_pb=b'\n\x0fminecraft.proto\x12\x0f\x64k.itu.real.ooe\x1a\x1bgoogle/protobuf/empty.proto\"P\n\x04\x43ube\x12#\n\x03min\x18\x01 \x01(\x0b\x32\x16.dk.itu.real.ooe.Point\x12#\n\x03max\x18\x02 \x01(\x0b\x32\x16.dk.itu.real.ooe.Point\"@\n\x06Sphere\x12&\n\x06\x63\x65nter\x18\x01 \x01(\x0b\x32\x16.dk.itu.real.ooe.Point\x12\x0e\n\x06radius\x18\x02 \x01(\x01\"`\n\x0f\x46illCubeRequest\x12#\n\x04\x63ube\x18\x01 \x01(\x0b\x32\x15.dk.itu.real.ooe.Cube\x12(\n\x04type\x18\x02 \x01(\x0e\x32\x1a.dk.itu.real.ooe.BlockType\"0\n\x06\x42locks\x12&\n\x06\x62locks\x18\x01 \x03(\x0b\x32\x16.dk.itu.real.ooe.Block\"(\n\x05Point\x12\t\n\x01x\x18\x01 \x01(\x05\x12\t\n\x01y\x18\x02 \x01(\x05\x12\t\n\x01z\x18\x03 \x01(\x05\"\x8e\x01\n\x05\x42lock\x12(\n\x08position\x18\x01 \x01(\x0b\x32\x16.dk.itu.real.ooe.Point\x12(\n\x04type\x18\x02 \x01(\x0e\x32\x1a.dk.itu.real.ooe.BlockType\x12\x31\n\x0borientation\x18\x03 \x01(\x0e\x32\x1c.dk.itu.real.ooe.Orientation\"\x16\n\x05Uuids\x12\r\n\x05uuids\x18\x01 \x03(\t\"D\n\rSpawnEntities\x12\x33\n\rspawnEntities\x18\x01 \x03(\x0b\x32\x1c.dk.itu.real.ooe.SpawnEntity\"g\n\x0bSpawnEntity\x12)\n\x04type\x18\x01 \x01(\x0e\x32\x1b.dk.itu.real.ooe.EntityType\x12-\n\rspawnPosition\x18\x02 \x01(\x0b\x32\x16.dk.itu.real.ooe.Point\"5\n\x08\x45ntities\x12)\n\x08\x65ntities\x18\x01 \x03(\x0b\x32\x17.dk.itu.real.ooe.Entity\"{\n\x06\x45ntity\x12\n\n\x02id\x18\x01 \x01(\t\x12)\n\x04type\x18\x02 \x01(\x0e\x32\x1b.dk.itu.real.ooe.EntityType\x12(\n\x08position\x18\x03 \x01(\x0b\x32\x16.dk.itu.real.ooe.Point\x12\x10\n\x08isLoaded\x18\x04 \x01(\x08*I\n\x0bOrientation\x12\t\n\x05NORTH\x10\x00\x12\x08\n\x04WEST\x10\x01\x12\t\n\x05SOUTH\x10\x02\x12\x08\n\x04\x45\x41ST\x10\x03\x12\x06\n\x02UP\x10\x04\x12\x08\n\x04\x44OWN\x10\x05*\x9b%\n\tBlockType\x12\x0f\n\x0b\x41\x43\x41\x43IA_DOOR\x10\x00\x12\x10\n\x0c\x41\x43\x41\x43IA_FENCE\x10\x01\x12\x15\n\x11\x41\x43\x41\x43IA_FENCE_GATE\x10\x02\x12\x11\n\rACACIA_STAIRS\x10\x03\x12\x12\n\x0e\x41\x43TIVATOR_RAIL\x10\x04\x12\x07\n\x03\x41IR\x10\x05\x12\t\n\x05\x41NVIL\x10\x06\x12\x0b\n\x07\x42\x41RRIER\x10\x07\x12\n\n\x06\x42\x45\x41\x43ON\x10\x08\x12\x07\n\x03\x42\x45\x44\x10\t\x12\x0b\n\x07\x42\x45\x44ROCK\x10\n\x12\r\n\tBEETROOTS\x10\x0b\x12\x0e\n\nBIRCH_DOOR\x10\x0c\x12\x0f\n\x0b\x42IRCH_FENCE\x10\r\x12\x14\n\x10\x42IRCH_FENCE_GATE\x10\x0e\x12\x10\n\x0c\x42IRCH_STAIRS\x10\x0f\x12\x1b\n\x17\x42LACK_GLAZED_TERRACOTTA\x10\x10\x12\x15\n\x11\x42LACK_SHULKER_BOX\x10\x11\x12\x1a\n\x16\x42LUE_GLAZED_TERRACOTTA\x10\x12\x12\x14\n\x10\x42LUE_SHULKER_BOX\x10\x13\x12\x0e\n\nBONE_BLOCK\x10\x14\x12\r\n\tBOOKSHELF\x10\x15\x12\x11\n\rBREWING_STAND\x10\x16\x12\x0f\n\x0b\x42RICK_BLOCK\x10\x17\x12\x10\n\x0c\x42RICK_STAIRS\x10\x18\x12\x1b\n\x17\x42ROWN_GLAZED_TERRACOTTA\x10\x19\x12\x12\n\x0e\x42ROWN_MUSHROOM\x10\x1a\x12\x18\n\x14\x42ROWN_MUSHROOM_BLOCK\x10\x1b\x12\x15\n\x11\x42ROWN_SHULKER_BOX\x10\x1c\x12\n\n\x06\x43\x41\x43TUS\x10\x1d\x12\x08\n\x04\x43\x41KE\x10\x1e\x12\n\n\x06\x43\x41RPET\x10\x1f\x12\x0b\n\x07\x43\x41RROTS\x10 \x12\x0c\n\x08\x43\x41ULDRON\x10!\x12\x17\n\x13\x43HAIN_COMMAND_BLOCK\x10\"\x12\t\n\x05\x43HEST\x10#\x12\x11\n\rCHORUS_FLOWER\x10$\x12\x10\n\x0c\x43HORUS_PLANT\x10%\x12\x08\n\x04\x43LAY\x10&\x12\x0e\n\nCOAL_BLOCK\x10\'\x12\x0c\n\x08\x43OAL_ORE\x10(\x12\x0f\n\x0b\x43OBBLESTONE\x10)\x12\x14\n\x10\x43OBBLESTONE_WALL\x10*\x12\t\n\x05\x43OCOA\x10+\x12\x11\n\rCOMMAND_BLOCK\x10,\x12\x0c\n\x08\x43ONCRETE\x10-\x12\x13\n\x0f\x43ONCRETE_POWDER\x10.\x12\x12\n\x0e\x43RAFTING_TABLE\x10/\x12\x1a\n\x16\x43YAN_GLAZED_TERRACOTTA\x10\x30\x12\x14\n\x10\x43YAN_SHULKER_BOX\x10\x31\x12\x11\n\rDARK_OAK_DOOR\x10\x32\x12\x12\n\x0e\x44\x41RK_OAK_FENCE\x10\x33\x12\x17\n\x13\x44\x41RK_OAK_FENCE_GATE\x10\x34\x12\x13\n\x0f\x44\x41RK_OAK_STAIRS\x10\x35\x12\x15\n\x11\x44\x41YLIGHT_DETECTOR\x10\x36\x12\x1e\n\x1a\x44\x41YLIGHT_DETECTOR_INVERTED\x10\x37\x12\x0c\n\x08\x44\x45\x41\x44\x42USH\x10\x38\x12\x11\n\rDETECTOR_RAIL\x10\x39\x12\x11\n\rDIAMOND_BLOCK\x10:\x12\x0f\n\x0b\x44IAMOND_ORE\x10;\x12\x08\n\x04\x44IRT\x10<\x12\r\n\tDISPENSER\x10=\x12\x10\n\x0c\x44OUBLE_PLANT\x10>\x12\x15\n\x11\x44OUBLE_STONE_SLAB\x10?\x12\x16\n\x12\x44OUBLE_STONE_SLAB2\x10@\x12\x16\n\x12\x44OUBLE_WOODEN_SLAB\x10\x41\x12\x0e\n\nDRAGON_EGG\x10\x42\x12\x0b\n\x07\x44ROPPER\x10\x43\x12\x11\n\rEMERALD_BLOCK\x10\x44\x12\x0f\n\x0b\x45MERALD_ORE\x10\x45\x12\x14\n\x10\x45NCHANTING_TABLE\x10\x46\x12\x0f\n\x0b\x45NDER_CHEST\x10G\x12\x0e\n\nEND_BRICKS\x10H\x12\x0f\n\x0b\x45ND_GATEWAY\x10I\x12\x0e\n\nEND_PORTAL\x10J\x12\x14\n\x10\x45ND_PORTAL_FRAME\x10K\x12\x0b\n\x07\x45ND_ROD\x10L\x12\r\n\tEND_STONE\x10M\x12\x0c\n\x08\x46\x41RMLAND\x10N\x12\t\n\x05\x46\x45NCE\x10O\x12\x0e\n\nFENCE_GATE\x10P\x12\x08\n\x04\x46IRE\x10Q\x12\x0e\n\nFLOWER_POT\x10R\x12\x10\n\x0c\x46LOWING_LAVA\x10S\x12\x11\n\rFLOWING_WATER\x10T\x12\x0f\n\x0b\x46ROSTED_ICE\x10U\x12\x0b\n\x07\x46URNACE\x10V\x12\t\n\x05GLASS\x10W\x12\x0e\n\nGLASS_PANE\x10X\x12\r\n\tGLOWSTONE\x10Y\x12\x0f\n\x0bGOLDEN_RAIL\x10Z\x12\x0e\n\nGOLD_BLOCK\x10[\x12\x0c\n\x08GOLD_ORE\x10\\\x12\t\n\x05GRASS\x10]\x12\x0e\n\nGRASS_PATH\x10^\x12\n\n\x06GRAVEL\x10_\x12\x1a\n\x16GRAY_GLAZED_TERRACOTTA\x10`\x12\x14\n\x10GRAY_SHULKER_BOX\x10\x61\x12\x1b\n\x17GREEN_GLAZED_TERRACOTTA\x10\x62\x12\x15\n\x11GREEN_SHULKER_BOX\x10\x63\x12\x11\n\rHARDENED_CLAY\x10\x64\x12\r\n\tHAY_BLOCK\x10\x65\x12!\n\x1dHEAVY_WEIGHTED_PRESSURE_PLATE\x10\x66\x12\n\n\x06HOPPER\x10g\x12\x07\n\x03ICE\x10h\x12\r\n\tIRON_BARS\x10i\x12\x0e\n\nIRON_BLOCK\x10j\x12\r\n\tIRON_DOOR\x10k\x12\x0c\n\x08IRON_ORE\x10l\x12\x11\n\rIRON_TRAPDOOR\x10m\x12\x0b\n\x07JUKEBOX\x10n\x12\x0f\n\x0bJUNGLE_DOOR\x10o\x12\x10\n\x0cJUNGLE_FENCE\x10p\x12\x15\n\x11JUNGLE_FENCE_GATE\x10q\x12\x11\n\rJUNGLE_STAIRS\x10r\x12\n\n\x06LADDER\x10s\x12\x0f\n\x0bLAPIS_BLOCK\x10t\x12\r\n\tLAPIS_ORE\x10u\x12\x08\n\x04LAVA\x10v\x12\n\n\x06LEAVES\x10w\x12\x0b\n\x07LEAVES2\x10x\x12\t\n\x05LEVER\x10y\x12 \n\x1cLIGHT_BLUE_GLAZED_TERRACOTTA\x10z\x12\x1a\n\x16LIGHT_BLUE_SHULKER_BOX\x10{\x12!\n\x1dLIGHT_WEIGHTED_PRESSURE_PLATE\x10|\x12\x1a\n\x16LIME_GLAZED_TERRACOTTA\x10}\x12\x14\n\x10LIME_SHULKER_BOX\x10~\x12\x0f\n\x0bLIT_FURNACE\x10\x7f\x12\x10\n\x0bLIT_PUMPKIN\x10\x80\x01\x12\x16\n\x11LIT_REDSTONE_LAMP\x10\x81\x01\x12\x15\n\x10LIT_REDSTONE_ORE\x10\x82\x01\x12\x08\n\x03LOG\x10\x83\x01\x12\t\n\x04LOG2\x10\x84\x01\x12\x1e\n\x19MAGENTA_GLAZED_TERRACOTTA\x10\x85\x01\x12\x18\n\x13MAGENTA_SHULKER_BOX\x10\x86\x01\x12\n\n\x05MAGMA\x10\x87\x01\x12\x10\n\x0bMELON_BLOCK\x10\x88\x01\x12\x0f\n\nMELON_STEM\x10\x89\x01\x12\x10\n\x0bMOB_SPAWNER\x10\x8a\x01\x12\x10\n\x0bMONSTER_EGG\x10\x8b\x01\x12\x16\n\x11MOSSY_COBBLESTONE\x10\x8c\x01\x12\r\n\x08MYCELIUM\x10\x8d\x01\x12\x0f\n\nNETHERRACK\x10\x8e\x01\x12\x11\n\x0cNETHER_BRICK\x10\x8f\x01\x12\x17\n\x12NETHER_BRICK_FENCE\x10\x90\x01\x12\x18\n\x13NETHER_BRICK_STAIRS\x10\x91\x01\x12\x10\n\x0bNETHER_WART\x10\x92\x01\x12\x16\n\x11NETHER_WART_BLOCK\x10\x93\x01\x12\x0e\n\tNOTEBLOCK\x10\x94\x01\x12\x0f\n\nOAK_STAIRS\x10\x95\x01\x12\r\n\x08OBSERVER\x10\x96\x01\x12\r\n\x08OBSIDIAN\x10\x97\x01\x12\x1d\n\x18ORANGE_GLAZED_TERRACOTTA\x10\x98\x01\x12\x17\n\x12ORANGE_SHULKER_BOX\x10\x99\x01\x12\x0f\n\nPACKED_ICE\x10\x9a\x01\x12\x1b\n\x16PINK_GLAZED_TERRACOTTA\x10\x9b\x01\x12\x15\n\x10PINK_SHULKER_BOX\x10\x9c\x01\x12\x0b\n\x06PISTON\x10\x9d\x01\x12\x15\n\x10PISTON_EXTENSION\x10\x9e\x01\x12\x10\n\x0bPISTON_HEAD\x10\x9f\x01\x12\x0b\n\x06PLANKS\x10\xa0\x01\x12\x0b\n\x06PORTAL\x10\xa1\x01\x12\r\n\x08POTATOES\x10\xa2\x01\x12\x17\n\x12POWERED_COMPARATOR\x10\xa3\x01\x12\x15\n\x10POWERED_REPEATER\x10\xa4\x01\x12\x0f\n\nPRISMARINE\x10\xa5\x01\x12\x0c\n\x07PUMPKIN\x10\xa6\x01\x12\x11\n\x0cPUMPKIN_STEM\x10\xa7\x01\x12\x1d\n\x18PURPLE_GLAZED_TERRACOTTA\x10\xa8\x01\x12\x17\n\x12PURPLE_SHULKER_BOX\x10\xa9\x01\x12\x11\n\x0cPURPUR_BLOCK\x10\xaa\x01\x12\x17\n\x12PURPUR_DOUBLE_SLAB\x10\xab\x01\x12\x12\n\rPURPUR_PILLAR\x10\xac\x01\x12\x10\n\x0bPURPUR_SLAB\x10\xad\x01\x12\x12\n\rPURPUR_STAIRS\x10\xae\x01\x12\x11\n\x0cQUARTZ_BLOCK\x10\xaf\x01\x12\x0f\n\nQUARTZ_ORE\x10\xb0\x01\x12\x12\n\rQUARTZ_STAIRS\x10\xb1\x01\x12\t\n\x04RAIL\x10\xb2\x01\x12\x13\n\x0eREDSTONE_BLOCK\x10\xb3\x01\x12\x12\n\rREDSTONE_LAMP\x10\xb4\x01\x12\x11\n\x0cREDSTONE_ORE\x10\xb5\x01\x12\x13\n\x0eREDSTONE_TORCH\x10\xb6\x01\x12\x12\n\rREDSTONE_WIRE\x10\xb7\x01\x12\x0f\n\nRED_FLOWER\x10\xb8\x01\x12\x1a\n\x15RED_GLAZED_TERRACOTTA\x10\xb9\x01\x12\x11\n\x0cRED_MUSHROOM\x10\xba\x01\x12\x17\n\x12RED_MUSHROOM_BLOCK\x10\xbb\x01\x12\x15\n\x10RED_NETHER_BRICK\x10\xbc\x01\x12\x12\n\rRED_SANDSTONE\x10\xbd\x01\x12\x19\n\x14RED_SANDSTONE_STAIRS\x10\xbe\x01\x12\x14\n\x0fRED_SHULKER_BOX\x10\xbf\x01\x12\n\n\x05REEDS\x10\xc0\x01\x12\x1c\n\x17REPEATING_COMMAND_BLOCK\x10\xc1\x01\x12\t\n\x04SAND\x10\xc2\x01\x12\x0e\n\tSANDSTONE\x10\xc3\x01\x12\x15\n\x10SANDSTONE_STAIRS\x10\xc4\x01\x12\x0c\n\x07SAPLING\x10\xc5\x01\x12\x10\n\x0bSEA_LANTERN\x10\xc6\x01\x12\x1d\n\x18SILVER_GLAZED_TERRACOTTA\x10\xc7\x01\x12\x17\n\x12SILVER_SHULKER_BOX\x10\xc8\x01\x12\n\n\x05SKULL\x10\xc9\x01\x12\n\n\x05SLIME\x10\xca\x01\x12\t\n\x04SNOW\x10\xcb\x01\x12\x0f\n\nSNOW_LAYER\x10\xcc\x01\x12\x0e\n\tSOUL_SAND\x10\xcd\x01\x12\x0b\n\x06SPONGE\x10\xce\x01\x12\x10\n\x0bSPRUCE_DOOR\x10\xcf\x01\x12\x11\n\x0cSPRUCE_FENCE\x10\xd0\x01\x12\x16\n\x11SPRUCE_FENCE_GATE\x10\xd1\x01\x12\x12\n\rSPRUCE_STAIRS\x10\xd2\x01\x12\x12\n\rSTAINED_GLASS\x10\xd3\x01\x12\x17\n\x12STAINED_GLASS_PANE\x10\xd4\x01\x12\x1a\n\x15STAINED_HARDENED_CLAY\x10\xd5\x01\x12\x14\n\x0fSTANDING_BANNER\x10\xd6\x01\x12\x12\n\rSTANDING_SIGN\x10\xd7\x01\x12\x12\n\rSTICKY_PISTON\x10\xd8\x01\x12\n\n\x05STONE\x10\xd9\x01\x12\x0f\n\nSTONEBRICK\x10\xda\x01\x12\x17\n\x12STONE_BRICK_STAIRS\x10\xdb\x01\x12\x11\n\x0cSTONE_BUTTON\x10\xdc\x01\x12\x19\n\x14STONE_PRESSURE_PLATE\x10\xdd\x01\x12\x0f\n\nSTONE_SLAB\x10\xde\x01\x12\x10\n\x0bSTONE_SLAB2\x10\xdf\x01\x12\x11\n\x0cSTONE_STAIRS\x10\xe0\x01\x12\x14\n\x0fSTRUCTURE_BLOCK\x10\xe1\x01\x12\x13\n\x0eSTRUCTURE_VOID\x10\xe2\x01\x12\x0e\n\tTALLGRASS\x10\xe3\x01\x12\x08\n\x03TNT\x10\xe4\x01\x12\n\n\x05TORCH\x10\xe5\x01\x12\r\n\x08TRAPDOOR\x10\xe6\x01\x12\x12\n\rTRAPPED_CHEST\x10\xe7\x01\x12\r\n\x08TRIPWIRE\x10\xe8\x01\x12\x12\n\rTRIPWIRE_HOOK\x10\xe9\x01\x12\x19\n\x14UNLIT_REDSTONE_TORCH\x10\xea\x01\x12\x19\n\x14UNPOWERED_COMPARATOR\x10\xeb\x01\x12\x17\n\x12UNPOWERED_REPEATER\x10\xec\x01\x12\t\n\x04VINE\x10\xed\x01\x12\x10\n\x0bWALL_BANNER\x10\xee\x01\x12\x0e\n\tWALL_SIGN\x10\xef\x01\x12\n\n\x05WATER\x10\xf0\x01\x12\x0e\n\tWATERLILY\x10\xf1\x01\x12\x08\n\x03WEB\x10\xf2\x01\x12\n\n\x05WHEAT\x10\xf3\x01\x12\x1c\n\x17WHITE_GLAZED_TERRACOTTA\x10\xf4\x01\x12\x16\n\x11WHITE_SHULKER_BOX\x10\xf5\x01\x12\x12\n\rWOODEN_BUTTON\x10\xf6\x01\x12\x10\n\x0bWOODEN_DOOR\x10\xf7\x01\x12\x1a\n\x15WOODEN_PRESSURE_PLATE\x10\xf8\x01\x12\x10\n\x0bWOODEN_SLAB\x10\xf9\x01\x12\t\n\x04WOOL\x10\xfa\x01\x12\x12\n\rYELLOW_FLOWER\x10\xfb\x01\x12\x1d\n\x18YELLOW_GLAZED_TERRACOTTA\x10\xfc\x01\x12\x17\n\x12YELLOW_SHULKER_BOX\x10\xfd\x01*\x82\x10\n\nEntityType\x12\x1c\n\x18\x45NTITY_AREA_EFFECT_CLOUD\x10\x00\x12\x16\n\x12\x45NTITY_ARMOR_STAND\x10\x01\x12\x0e\n\nENTITY_BAT\x10\x02\x12\x10\n\x0c\x45NTITY_BLAZE\x10\x03\x12\x0f\n\x0b\x45NTITY_BOAT\x10\x04\x12\x16\n\x12\x45NTITY_CAVE_SPIDER\x10\x05\x12\x1b\n\x17\x45NTITY_CHESTED_MINECART\x10\x06\x12\x12\n\x0e\x45NTITY_CHICKEN\x10\x07\x12 \n\x1c\x45NTITY_COMMANDBLOCK_MINECART\x10\x08\x12\x17\n\x13\x45NTITY_COMPLEX_PART\x10\t\x12\x0e\n\nENTITY_COW\x10\n\x12\x12\n\x0e\x45NTITY_CREEPER\x10\x0b\x12\x11\n\rENTITY_DONKEY\x10\x0c\x12\x1a\n\x16\x45NTITY_DRAGON_FIREBALL\x10\r\x12\x0e\n\nENTITY_EGG\x10\x0e\x12\x19\n\x15\x45NTITY_ELDER_GUARDIAN\x10\x0f\x12\x18\n\x14\x45NTITY_ENDER_CRYSTAL\x10\x10\x12\x17\n\x13\x45NTITY_ENDER_DRAGON\x10\x11\x12\x16\n\x12\x45NTITY_ENDER_PEARL\x10\x12\x12\x13\n\x0f\x45NTITY_ENDERMAN\x10\x13\x12\x14\n\x10\x45NTITY_ENDERMITE\x10\x14\x12\x1a\n\x16\x45NTITY_EVOCATION_FANGS\x10\x15\x12\x1c\n\x18\x45NTITY_EVOCATION_ILLAGER\x10\x16\x12\x19\n\x15\x45NTITY_EXPERIENCE_ORB\x10\x17\x12\x17\n\x13\x45NTITY_EYE_OF_ENDER\x10\x18\x12\x18\n\x14\x45NTITY_FALLING_BLOCK\x10\x19\x12\x13\n\x0f\x45NTITY_FIREBALL\x10\x1a\x12\x13\n\x0f\x45NTITY_FIREWORK\x10\x1b\x12\x17\n\x13\x45NTITY_FISHING_HOOK\x10\x1c\x12\x1b\n\x17\x45NTITY_FURNACE_MINECART\x10\x1d\x12\x10\n\x0c\x45NTITY_GHAST\x10\x1e\x12\x10\n\x0c\x45NTITY_GIANT\x10\x1f\x12\x13\n\x0f\x45NTITY_GUARDIAN\x10 \x12\x1a\n\x16\x45NTITY_HOPPER_MINECART\x10!\x12\x10\n\x0c\x45NTITY_HORSE\x10\"\x12\x10\n\x0c\x45NTITY_HUMAN\x10#\x12\x0f\n\x0b\x45NTITY_HUSK\x10$\x12\x1b\n\x17\x45NTITY_ILLUSION_ILLAGER\x10%\x12\x15\n\x11\x45NTITY_IRON_GOLEM\x10&\x12\x0f\n\x0b\x45NTITY_ITEM\x10\'\x12\x15\n\x11\x45NTITY_ITEM_FRAME\x10(\x12\x16\n\x12\x45NTITY_LEASH_HITCH\x10)\x12\x14\n\x10\x45NTITY_LIGHTNING\x10*\x12\x10\n\x0c\x45NTITY_LLAMA\x10+\x12\x15\n\x11\x45NTITY_LLAMA_SPIT\x10,\x12\x15\n\x11\x45NTITY_MAGMA_CUBE\x10-\x12\x1f\n\x1b\x45NTITY_MOB_SPAWNER_MINECART\x10.\x12\x0f\n\x0b\x45NTITY_MULE\x10/\x12\x17\n\x13\x45NTITY_MUSHROOM_COW\x10\x30\x12\x11\n\rENTITY_OCELOT\x10\x31\x12\x13\n\x0f\x45NTITY_PAINTING\x10\x32\x12\x11\n\rENTITY_PARROT\x10\x33\x12\x0e\n\nENTITY_PIG\x10\x34\x12\x15\n\x11\x45NTITY_PIG_ZOMBIE\x10\x35\x12\x11\n\rENTITY_PLAYER\x10\x36\x12\x15\n\x11\x45NTITY_POLAR_BEAR\x10\x37\x12\x15\n\x11\x45NTITY_PRIMED_TNT\x10\x38\x12\x11\n\rENTITY_RABBIT\x10\x39\x12\x1c\n\x18\x45NTITY_RIDEABLE_MINECART\x10:\x12\x10\n\x0c\x45NTITY_SHEEP\x10;\x12\x12\n\x0e\x45NTITY_SHULKER\x10<\x12\x19\n\x15\x45NTITY_SHULKER_BULLET\x10=\x12\x15\n\x11\x45NTITY_SILVERFISH\x10>\x12\x13\n\x0f\x45NTITY_SKELETON\x10?\x12\x19\n\x15\x45NTITY_SKELETON_HORSE\x10@\x12\x10\n\x0c\x45NTITY_SLIME\x10\x41\x12\x19\n\x15\x45NTITY_SMALL_FIREBALL\x10\x42\x12\x13\n\x0f\x45NTITY_SNOWBALL\x10\x43\x12\x12\n\x0e\x45NTITY_SNOWMAN\x10\x44\x12\x19\n\x15\x45NTITY_SPECTRAL_ARROW\x10\x45\x12\x11\n\rENTITY_SPIDER\x10\x46\x12\x18\n\x14\x45NTITY_SPLASH_POTION\x10G\x12\x10\n\x0c\x45NTITY_SQUID\x10H\x12\x10\n\x0c\x45NTITY_STRAY\x10I\x12\x1c\n\x18\x45NTITY_THROWN_EXP_BOTTLE\x10J\x12\x17\n\x13\x45NTITY_TIPPED_ARROW\x10K\x12\x17\n\x13\x45NTITY_TNT_MINECART\x10L\x12\x12\n\x0e\x45NTITY_UNKNOWN\x10M\x12\x0e\n\nENTITY_VEX\x10N\x12\x13\n\x0f\x45NTITY_VILLAGER\x10O\x12\x1e\n\x1a\x45NTITY_VINDICATION_ILLAGER\x10P\x12\x12\n\x0e\x45NTITY_WEATHER\x10Q\x12\x10\n\x0c\x45NTITY_WITCH\x10R\x12\x11\n\rENTITY_WITHER\x10S\x12\x1a\n\x16\x45NTITY_WITHER_SKELETON\x10T\x12\x17\n\x13\x45NTITY_WITHER_SKULL\x10U\x12\x0f\n\x0b\x45NTITY_WOLF\x10V\x12\x11\n\rENTITY_ZOMBIE\x10W\x12\x17\n\x13\x45NTITY_ZOMBIE_HORSE\x10X\x12\x1a\n\x16\x45NTITY_ZOMBIE_VILLAGER\x10Y2\xac\x03\n\x10MinecraftService\x12>\n\x0bspawnBlocks\x12\x17.dk.itu.real.ooe.Blocks\x1a\x16.google.protobuf.Empty\x12\x41\n\x0creadEntities\x12\x16.dk.itu.real.ooe.Uuids\x1a\x19.dk.itu.real.ooe.Entities\x12G\n\rspawnEntities\x12\x1e.dk.itu.real.ooe.SpawnEntities\x1a\x16.dk.itu.real.ooe.Uuids\x12:\n\x08readCube\x12\x15.dk.itu.real.ooe.Cube\x1a\x17.dk.itu.real.ooe.Blocks\x12\x44\n\x08\x66illCube\x12 .dk.itu.real.ooe.FillCubeRequest\x1a\x16.google.protobuf.Empty\x12J\n\x14readEntitiesInSphere\x12\x17.dk.itu.real.ooe.Sphere\x1a\x19.dk.itu.real.ooe.Entitiesb\x06proto3'
   ,
   dependencies=[google_dot_protobuf_dot_empty__pb2.DESCRIPTOR,])
 
@@ -65,8 +65,8 @@ _ORIENTATION = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=482,
-  serialized_end=555,
+  serialized_start=927,
+  serialized_end=1000,
 )
 _sym_db.RegisterEnumDescriptor(_ORIENTATION)
 
@@ -1351,12 +1351,478 @@ _BLOCKTYPE = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=558,
-  serialized_end=5321,
+  serialized_start=1003,
+  serialized_end=5766,
 )
 _sym_db.RegisterEnumDescriptor(_BLOCKTYPE)
 
 BlockType = enum_type_wrapper.EnumTypeWrapper(_BLOCKTYPE)
+_ENTITYTYPE = _descriptor.EnumDescriptor(
+  name='EntityType',
+  full_name='dk.itu.real.ooe.EntityType',
+  filename=None,
+  file=DESCRIPTOR,
+  create_key=_descriptor._internal_create_key,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_AREA_EFFECT_CLOUD', index=0, number=0,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_ARMOR_STAND', index=1, number=1,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_BAT', index=2, number=2,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_BLAZE', index=3, number=3,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_BOAT', index=4, number=4,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_CAVE_SPIDER', index=5, number=5,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_CHESTED_MINECART', index=6, number=6,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_CHICKEN', index=7, number=7,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_COMMANDBLOCK_MINECART', index=8, number=8,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_COMPLEX_PART', index=9, number=9,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_COW', index=10, number=10,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_CREEPER', index=11, number=11,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_DONKEY', index=12, number=12,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_DRAGON_FIREBALL', index=13, number=13,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_EGG', index=14, number=14,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_ELDER_GUARDIAN', index=15, number=15,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_ENDER_CRYSTAL', index=16, number=16,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_ENDER_DRAGON', index=17, number=17,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_ENDER_PEARL', index=18, number=18,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_ENDERMAN', index=19, number=19,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_ENDERMITE', index=20, number=20,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_EVOCATION_FANGS', index=21, number=21,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_EVOCATION_ILLAGER', index=22, number=22,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_EXPERIENCE_ORB', index=23, number=23,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_EYE_OF_ENDER', index=24, number=24,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_FALLING_BLOCK', index=25, number=25,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_FIREBALL', index=26, number=26,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_FIREWORK', index=27, number=27,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_FISHING_HOOK', index=28, number=28,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_FURNACE_MINECART', index=29, number=29,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_GHAST', index=30, number=30,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_GIANT', index=31, number=31,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_GUARDIAN', index=32, number=32,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_HOPPER_MINECART', index=33, number=33,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_HORSE', index=34, number=34,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_HUMAN', index=35, number=35,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_HUSK', index=36, number=36,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_ILLUSION_ILLAGER', index=37, number=37,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_IRON_GOLEM', index=38, number=38,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_ITEM', index=39, number=39,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_ITEM_FRAME', index=40, number=40,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_LEASH_HITCH', index=41, number=41,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_LIGHTNING', index=42, number=42,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_LLAMA', index=43, number=43,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_LLAMA_SPIT', index=44, number=44,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_MAGMA_CUBE', index=45, number=45,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_MOB_SPAWNER_MINECART', index=46, number=46,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_MULE', index=47, number=47,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_MUSHROOM_COW', index=48, number=48,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_OCELOT', index=49, number=49,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_PAINTING', index=50, number=50,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_PARROT', index=51, number=51,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_PIG', index=52, number=52,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_PIG_ZOMBIE', index=53, number=53,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_PLAYER', index=54, number=54,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_POLAR_BEAR', index=55, number=55,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_PRIMED_TNT', index=56, number=56,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_RABBIT', index=57, number=57,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_RIDEABLE_MINECART', index=58, number=58,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_SHEEP', index=59, number=59,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_SHULKER', index=60, number=60,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_SHULKER_BULLET', index=61, number=61,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_SILVERFISH', index=62, number=62,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_SKELETON', index=63, number=63,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_SKELETON_HORSE', index=64, number=64,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_SLIME', index=65, number=65,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_SMALL_FIREBALL', index=66, number=66,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_SNOWBALL', index=67, number=67,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_SNOWMAN', index=68, number=68,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_SPECTRAL_ARROW', index=69, number=69,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_SPIDER', index=70, number=70,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_SPLASH_POTION', index=71, number=71,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_SQUID', index=72, number=72,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_STRAY', index=73, number=73,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_THROWN_EXP_BOTTLE', index=74, number=74,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_TIPPED_ARROW', index=75, number=75,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_TNT_MINECART', index=76, number=76,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_UNKNOWN', index=77, number=77,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_VEX', index=78, number=78,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_VILLAGER', index=79, number=79,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_VINDICATION_ILLAGER', index=80, number=80,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_WEATHER', index=81, number=81,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_WITCH', index=82, number=82,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_WITHER', index=83, number=83,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_WITHER_SKELETON', index=84, number=84,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_WITHER_SKULL', index=85, number=85,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_WOLF', index=86, number=86,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_ZOMBIE', index=87, number=87,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_ZOMBIE_HORSE', index=88, number=88,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+    _descriptor.EnumValueDescriptor(
+      name='ENTITY_ZOMBIE_VILLAGER', index=89, number=89,
+      serialized_options=None,
+      type=None,
+      create_key=_descriptor._internal_create_key),
+  ],
+  containing_type=None,
+  serialized_options=None,
+  serialized_start=5769,
+  serialized_end=7819,
+)
+_sym_db.RegisterEnumDescriptor(_ENTITYTYPE)
+
+EntityType = enum_type_wrapper.EnumTypeWrapper(_ENTITYTYPE)
 NORTH = 0
 WEST = 1
 SOUTH = 2
@@ -1617,6 +2083,96 @@ WOOL = 250
 YELLOW_FLOWER = 251
 YELLOW_GLAZED_TERRACOTTA = 252
 YELLOW_SHULKER_BOX = 253
+ENTITY_AREA_EFFECT_CLOUD = 0
+ENTITY_ARMOR_STAND = 1
+ENTITY_BAT = 2
+ENTITY_BLAZE = 3
+ENTITY_BOAT = 4
+ENTITY_CAVE_SPIDER = 5
+ENTITY_CHESTED_MINECART = 6
+ENTITY_CHICKEN = 7
+ENTITY_COMMANDBLOCK_MINECART = 8
+ENTITY_COMPLEX_PART = 9
+ENTITY_COW = 10
+ENTITY_CREEPER = 11
+ENTITY_DONKEY = 12
+ENTITY_DRAGON_FIREBALL = 13
+ENTITY_EGG = 14
+ENTITY_ELDER_GUARDIAN = 15
+ENTITY_ENDER_CRYSTAL = 16
+ENTITY_ENDER_DRAGON = 17
+ENTITY_ENDER_PEARL = 18
+ENTITY_ENDERMAN = 19
+ENTITY_ENDERMITE = 20
+ENTITY_EVOCATION_FANGS = 21
+ENTITY_EVOCATION_ILLAGER = 22
+ENTITY_EXPERIENCE_ORB = 23
+ENTITY_EYE_OF_ENDER = 24
+ENTITY_FALLING_BLOCK = 25
+ENTITY_FIREBALL = 26
+ENTITY_FIREWORK = 27
+ENTITY_FISHING_HOOK = 28
+ENTITY_FURNACE_MINECART = 29
+ENTITY_GHAST = 30
+ENTITY_GIANT = 31
+ENTITY_GUARDIAN = 32
+ENTITY_HOPPER_MINECART = 33
+ENTITY_HORSE = 34
+ENTITY_HUMAN = 35
+ENTITY_HUSK = 36
+ENTITY_ILLUSION_ILLAGER = 37
+ENTITY_IRON_GOLEM = 38
+ENTITY_ITEM = 39
+ENTITY_ITEM_FRAME = 40
+ENTITY_LEASH_HITCH = 41
+ENTITY_LIGHTNING = 42
+ENTITY_LLAMA = 43
+ENTITY_LLAMA_SPIT = 44
+ENTITY_MAGMA_CUBE = 45
+ENTITY_MOB_SPAWNER_MINECART = 46
+ENTITY_MULE = 47
+ENTITY_MUSHROOM_COW = 48
+ENTITY_OCELOT = 49
+ENTITY_PAINTING = 50
+ENTITY_PARROT = 51
+ENTITY_PIG = 52
+ENTITY_PIG_ZOMBIE = 53
+ENTITY_PLAYER = 54
+ENTITY_POLAR_BEAR = 55
+ENTITY_PRIMED_TNT = 56
+ENTITY_RABBIT = 57
+ENTITY_RIDEABLE_MINECART = 58
+ENTITY_SHEEP = 59
+ENTITY_SHULKER = 60
+ENTITY_SHULKER_BULLET = 61
+ENTITY_SILVERFISH = 62
+ENTITY_SKELETON = 63
+ENTITY_SKELETON_HORSE = 64
+ENTITY_SLIME = 65
+ENTITY_SMALL_FIREBALL = 66
+ENTITY_SNOWBALL = 67
+ENTITY_SNOWMAN = 68
+ENTITY_SPECTRAL_ARROW = 69
+ENTITY_SPIDER = 70
+ENTITY_SPLASH_POTION = 71
+ENTITY_SQUID = 72
+ENTITY_STRAY = 73
+ENTITY_THROWN_EXP_BOTTLE = 74
+ENTITY_TIPPED_ARROW = 75
+ENTITY_TNT_MINECART = 76
+ENTITY_UNKNOWN = 77
+ENTITY_VEX = 78
+ENTITY_VILLAGER = 79
+ENTITY_VINDICATION_ILLAGER = 80
+ENTITY_WEATHER = 81
+ENTITY_WITCH = 82
+ENTITY_WITHER = 83
+ENTITY_WITHER_SKELETON = 84
+ENTITY_WITHER_SKULL = 85
+ENTITY_WOLF = 86
+ENTITY_ZOMBIE = 87
+ENTITY_ZOMBIE_HORSE = 88
+ENTITY_ZOMBIE_VILLAGER = 89
 
 
 
@@ -1659,6 +2215,45 @@ _CUBE = _descriptor.Descriptor(
 )
 
 
+_SPHERE = _descriptor.Descriptor(
+  name='Sphere',
+  full_name='dk.itu.real.ooe.Sphere',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  create_key=_descriptor._internal_create_key,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='center', full_name='dk.itu.real.ooe.Sphere.center', index=0,
+      number=1, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='radius', full_name='dk.itu.real.ooe.Sphere.radius', index=1,
+      number=2, type=1, cpp_type=5, label=1,
+      has_default_value=False, default_value=float(0),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=147,
+  serialized_end=211,
+)
+
+
 _FILLCUBEREQUEST = _descriptor.Descriptor(
   name='FillCubeRequest',
   full_name='dk.itu.real.ooe.FillCubeRequest',
@@ -1693,8 +2288,8 @@ _FILLCUBEREQUEST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=147,
-  serialized_end=243,
+  serialized_start=213,
+  serialized_end=309,
 )
 
 
@@ -1725,8 +2320,8 @@ _BLOCKS = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=245,
-  serialized_end=293,
+  serialized_start=311,
+  serialized_end=359,
 )
 
 
@@ -1771,8 +2366,8 @@ _POINT = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=295,
-  serialized_end=335,
+  serialized_start=361,
+  serialized_end=401,
 )
 
 
@@ -1817,25 +2412,227 @@ _BLOCK = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=338,
-  serialized_end=480,
+  serialized_start=404,
+  serialized_end=546,
+)
+
+
+_UUIDS = _descriptor.Descriptor(
+  name='Uuids',
+  full_name='dk.itu.real.ooe.Uuids',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  create_key=_descriptor._internal_create_key,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='uuids', full_name='dk.itu.real.ooe.Uuids.uuids', index=0,
+      number=1, type=9, cpp_type=9, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=548,
+  serialized_end=570,
+)
+
+
+_SPAWNENTITIES = _descriptor.Descriptor(
+  name='SpawnEntities',
+  full_name='dk.itu.real.ooe.SpawnEntities',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  create_key=_descriptor._internal_create_key,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='spawnEntities', full_name='dk.itu.real.ooe.SpawnEntities.spawnEntities', index=0,
+      number=1, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=572,
+  serialized_end=640,
+)
+
+
+_SPAWNENTITY = _descriptor.Descriptor(
+  name='SpawnEntity',
+  full_name='dk.itu.real.ooe.SpawnEntity',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  create_key=_descriptor._internal_create_key,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='type', full_name='dk.itu.real.ooe.SpawnEntity.type', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='spawnPosition', full_name='dk.itu.real.ooe.SpawnEntity.spawnPosition', index=1,
+      number=2, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=642,
+  serialized_end=745,
+)
+
+
+_ENTITIES = _descriptor.Descriptor(
+  name='Entities',
+  full_name='dk.itu.real.ooe.Entities',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  create_key=_descriptor._internal_create_key,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='entities', full_name='dk.itu.real.ooe.Entities.entities', index=0,
+      number=1, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=747,
+  serialized_end=800,
+)
+
+
+_ENTITY = _descriptor.Descriptor(
+  name='Entity',
+  full_name='dk.itu.real.ooe.Entity',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  create_key=_descriptor._internal_create_key,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='dk.itu.real.ooe.Entity.id', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='type', full_name='dk.itu.real.ooe.Entity.type', index=1,
+      number=2, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='position', full_name='dk.itu.real.ooe.Entity.position', index=2,
+      number=3, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='isLoaded', full_name='dk.itu.real.ooe.Entity.isLoaded', index=3,
+      number=4, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=802,
+  serialized_end=925,
 )
 
 _CUBE.fields_by_name['min'].message_type = _POINT
 _CUBE.fields_by_name['max'].message_type = _POINT
+_SPHERE.fields_by_name['center'].message_type = _POINT
 _FILLCUBEREQUEST.fields_by_name['cube'].message_type = _CUBE
 _FILLCUBEREQUEST.fields_by_name['type'].enum_type = _BLOCKTYPE
 _BLOCKS.fields_by_name['blocks'].message_type = _BLOCK
 _BLOCK.fields_by_name['position'].message_type = _POINT
 _BLOCK.fields_by_name['type'].enum_type = _BLOCKTYPE
 _BLOCK.fields_by_name['orientation'].enum_type = _ORIENTATION
+_SPAWNENTITIES.fields_by_name['spawnEntities'].message_type = _SPAWNENTITY
+_SPAWNENTITY.fields_by_name['type'].enum_type = _ENTITYTYPE
+_SPAWNENTITY.fields_by_name['spawnPosition'].message_type = _POINT
+_ENTITIES.fields_by_name['entities'].message_type = _ENTITY
+_ENTITY.fields_by_name['type'].enum_type = _ENTITYTYPE
+_ENTITY.fields_by_name['position'].message_type = _POINT
 DESCRIPTOR.message_types_by_name['Cube'] = _CUBE
+DESCRIPTOR.message_types_by_name['Sphere'] = _SPHERE
 DESCRIPTOR.message_types_by_name['FillCubeRequest'] = _FILLCUBEREQUEST
 DESCRIPTOR.message_types_by_name['Blocks'] = _BLOCKS
 DESCRIPTOR.message_types_by_name['Point'] = _POINT
 DESCRIPTOR.message_types_by_name['Block'] = _BLOCK
+DESCRIPTOR.message_types_by_name['Uuids'] = _UUIDS
+DESCRIPTOR.message_types_by_name['SpawnEntities'] = _SPAWNENTITIES
+DESCRIPTOR.message_types_by_name['SpawnEntity'] = _SPAWNENTITY
+DESCRIPTOR.message_types_by_name['Entities'] = _ENTITIES
+DESCRIPTOR.message_types_by_name['Entity'] = _ENTITY
 DESCRIPTOR.enum_types_by_name['Orientation'] = _ORIENTATION
 DESCRIPTOR.enum_types_by_name['BlockType'] = _BLOCKTYPE
+DESCRIPTOR.enum_types_by_name['EntityType'] = _ENTITYTYPE
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 Cube = _reflection.GeneratedProtocolMessageType('Cube', (_message.Message,), {
@@ -1844,6 +2641,13 @@ Cube = _reflection.GeneratedProtocolMessageType('Cube', (_message.Message,), {
   # @@protoc_insertion_point(class_scope:dk.itu.real.ooe.Cube)
   })
 _sym_db.RegisterMessage(Cube)
+
+Sphere = _reflection.GeneratedProtocolMessageType('Sphere', (_message.Message,), {
+  'DESCRIPTOR' : _SPHERE,
+  '__module__' : 'minecraft_pb2'
+  # @@protoc_insertion_point(class_scope:dk.itu.real.ooe.Sphere)
+  })
+_sym_db.RegisterMessage(Sphere)
 
 FillCubeRequest = _reflection.GeneratedProtocolMessageType('FillCubeRequest', (_message.Message,), {
   'DESCRIPTOR' : _FILLCUBEREQUEST,
@@ -1873,6 +2677,41 @@ Block = _reflection.GeneratedProtocolMessageType('Block', (_message.Message,), {
   })
 _sym_db.RegisterMessage(Block)
 
+Uuids = _reflection.GeneratedProtocolMessageType('Uuids', (_message.Message,), {
+  'DESCRIPTOR' : _UUIDS,
+  '__module__' : 'minecraft_pb2'
+  # @@protoc_insertion_point(class_scope:dk.itu.real.ooe.Uuids)
+  })
+_sym_db.RegisterMessage(Uuids)
+
+SpawnEntities = _reflection.GeneratedProtocolMessageType('SpawnEntities', (_message.Message,), {
+  'DESCRIPTOR' : _SPAWNENTITIES,
+  '__module__' : 'minecraft_pb2'
+  # @@protoc_insertion_point(class_scope:dk.itu.real.ooe.SpawnEntities)
+  })
+_sym_db.RegisterMessage(SpawnEntities)
+
+SpawnEntity = _reflection.GeneratedProtocolMessageType('SpawnEntity', (_message.Message,), {
+  'DESCRIPTOR' : _SPAWNENTITY,
+  '__module__' : 'minecraft_pb2'
+  # @@protoc_insertion_point(class_scope:dk.itu.real.ooe.SpawnEntity)
+  })
+_sym_db.RegisterMessage(SpawnEntity)
+
+Entities = _reflection.GeneratedProtocolMessageType('Entities', (_message.Message,), {
+  'DESCRIPTOR' : _ENTITIES,
+  '__module__' : 'minecraft_pb2'
+  # @@protoc_insertion_point(class_scope:dk.itu.real.ooe.Entities)
+  })
+_sym_db.RegisterMessage(Entities)
+
+Entity = _reflection.GeneratedProtocolMessageType('Entity', (_message.Message,), {
+  'DESCRIPTOR' : _ENTITY,
+  '__module__' : 'minecraft_pb2'
+  # @@protoc_insertion_point(class_scope:dk.itu.real.ooe.Entity)
+  })
+_sym_db.RegisterMessage(Entity)
+
 
 
 _MINECRAFTSERVICE = _descriptor.ServiceDescriptor(
@@ -1882,8 +2721,8 @@ _MINECRAFTSERVICE = _descriptor.ServiceDescriptor(
   index=0,
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_start=5324,
-  serialized_end=5536,
+  serialized_start=7822,
+  serialized_end=8250,
   methods=[
   _descriptor.MethodDescriptor(
     name='spawnBlocks',
@@ -1896,9 +2735,29 @@ _MINECRAFTSERVICE = _descriptor.ServiceDescriptor(
     create_key=_descriptor._internal_create_key,
   ),
   _descriptor.MethodDescriptor(
+    name='readEntities',
+    full_name='dk.itu.real.ooe.MinecraftService.readEntities',
+    index=1,
+    containing_service=None,
+    input_type=_UUIDS,
+    output_type=_ENTITIES,
+    serialized_options=None,
+    create_key=_descriptor._internal_create_key,
+  ),
+  _descriptor.MethodDescriptor(
+    name='spawnEntities',
+    full_name='dk.itu.real.ooe.MinecraftService.spawnEntities',
+    index=2,
+    containing_service=None,
+    input_type=_SPAWNENTITIES,
+    output_type=_UUIDS,
+    serialized_options=None,
+    create_key=_descriptor._internal_create_key,
+  ),
+  _descriptor.MethodDescriptor(
     name='readCube',
     full_name='dk.itu.real.ooe.MinecraftService.readCube',
-    index=1,
+    index=3,
     containing_service=None,
     input_type=_CUBE,
     output_type=_BLOCKS,
@@ -1908,10 +2767,20 @@ _MINECRAFTSERVICE = _descriptor.ServiceDescriptor(
   _descriptor.MethodDescriptor(
     name='fillCube',
     full_name='dk.itu.real.ooe.MinecraftService.fillCube',
-    index=2,
+    index=4,
     containing_service=None,
     input_type=_FILLCUBEREQUEST,
     output_type=google_dot_protobuf_dot_empty__pb2._EMPTY,
+    serialized_options=None,
+    create_key=_descriptor._internal_create_key,
+  ),
+  _descriptor.MethodDescriptor(
+    name='readEntitiesInSphere',
+    full_name='dk.itu.real.ooe.MinecraftService.readEntitiesInSphere',
+    index=5,
+    containing_service=None,
+    input_type=_SPHERE,
+    output_type=_ENTITIES,
     serialized_options=None,
     create_key=_descriptor._internal_create_key,
   ),
