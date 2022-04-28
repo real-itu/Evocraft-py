@@ -25,7 +25,7 @@ A Python interface for Minecraft built on [grpc](https://github.com/real-itu/min
 2. Clone repo and install grpc:
 
    - `git clone https://github.com/real-itu/Evocraft-py`
-   - `pip install grpcio`
+   - `pip install -r requirements.txt`
 
 
 ### 2. Starting the modded Minecraft server
