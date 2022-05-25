@@ -25,28 +25,23 @@ A Python interface for Minecraft built on [grpc](https://github.com/real-itu/min
 2. Clone repo and install grpc:
 
    - `git clone https://github.com/real-itu/Evocraft-py`
-   - `pip install grpc`
+   - `pip install -r requirements.txt`
 
 
 ### 2. Starting the modded Minecraft server
 
-1. From `Evocraft-py`, start the server with `java -jar spongevanilla-1.12.2-7.3.0.jar`
-2. The first time you try to start the server a texfile eula.txt with be generated, you need to modifying its last line to `eula=true` to accept the Minecraft EULA. Now running `java -jar spongevanilla-1.12.2-7.3.0.jar` will start the server
+1. From `Evocraft-py` folder, start the server with `java -jar spongevanilla-1.12.2-7.3.0.jar`
+2. The first time you try to start the server a texfile eula.txt with be generated, you need to modify its last line to `eula=true` to accept the Minecraft EULA. Now running `java -jar spongevanilla-1.12.2-7.3.0.jar` will start the server
 3. You should see a bunch of outputs including `[... INFO]: Listening on 5001`. 
 This means it's working and the Minecraft server is ready for commands on port 5001.
-4. Useful commands that you can type in the running server console:
-	- `defaultgamemode creative` to set the default mode to creative;
-	-  `setworldspawn x y z` to set the default player spawn point;
-	- `time set day` to set time to day;
-	- `gamerule doDaylightCycle false` stop the day/night cycle;
-	- `gamemode creative <player name>` set creative mode for a specific player (sometimes the default isn't working);
-	- `teleport <player name> x y z` teleport a player to x,y,z coordinates.
 	
 
 ### 3. Spawn blocks on the Minecraft server with Python 
 
 There are three methods at the core of the API: `spawnBlocks` spawns a set of different blocks,
 `fillCube` spawns a single type of block over a cubic volume and `readCube` which reads currently spawned blocks within a space.
+
+If you aren't a seasoned Minecraft scholar, you can check [information about different Minecraft blocks](https://minecraft.gamepedia.com/Block).
 
 Here's [example](example.py) on how to spawn a flying machine with python (you'll need to have started the modded Minecraft server before):
 
@@ -126,6 +121,18 @@ You can use the method `client.readCube` that allows to read which blocks are sp
 
 On the server command line, you can use /tp @p x y z to teleport yourself to position {x,y,z} in the world.
 
+### 5. Useful commands that you can type in the running server console
+
+- `defaultgamemode creative` to set the default mode to creative;
+-  `setworldspawn x y z` to set the default player spawn point;
+- `time set day` to set time to day;
+- `gamerule doDaylightCycle false` stop the day/night cycle;
+- `gamemode creative <player name>` set creative mode for a specific player (sometimes the default isn't working);
+- `teleport <player name> x y z` teleport a player to x,y,z coordinates.
+
+### 6. Further examples
+Refer to the [**Simple tower evolution in Python**](https://github.com/real-itu/simple_minecraft_evolver) project for more complex examples of Evocraft functionalities. Check [**this**](https://github.com/real-itu/simple_minecraft_evolver/blob/master/functionalities_testing.py) and [**this**](https://github.com/real-itu/simple_minecraft_evolver/blob/master/utils/block_utils.py) files to see examples on how to work with Minecraft Entity and Block objects.
+
 ### Et voilà:
 
 <p align="center">
@@ -134,13 +141,16 @@ On the server command line, you can use /tp @p x y z to teleport yourself to pos
 
 </br>  
 
-# Evolutionary algorithms implemented with the API
+# Research projects using the EvoCraft API
 
 In this section we'll compile implementations of evolutionary algorithms using the API
 
- - [**Interactive evolution**](https://github.com/claireaoi/EvoCraft-interactive): Evolve Minecraft entities interactively.
+ - [**Interactive evolution**](https://github.com/claireaoi/EvoCraft-interactive): Evolve Minecraft objects interactively.
  - [**Simple tower evolution in Python**](https://github.com/real-itu/simple_minecraft_evolver): Evolve tower that reach for a golden block in the sky.
-
+ - [**Evocraft 2021 winner**](https://github.com/GoodAI/EvocraftEntry): Novelty search and automated designer approaches to redstone circuit discovery.
+ - [**Meta-Diversity Search in Complex Systems,
+A Recipe for Artificial Open-Endedness**](https://github.com/mayalenE/evocraftsearch/)
+ - [**Open-ended creation of hybrid creatures with Neural Cellular Automata**](https://github.com/hugcis/hybrid-nca-evocraft)
 
 
 </br>  
