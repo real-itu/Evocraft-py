@@ -158,14 +158,13 @@ A Recipe for Artificial Open-Endedness**](https://github.com/mayalenE/evocraftse
 
  ```bibtex
 
-@article{Grbic2020Dec,
-	author = {Djordje Grbic, Rasmus Berg Palm, Elias Najarro, Claire Glanois, Sebastian Risi},
-	title = {{EvoCraft: A New Challenge for Open-Endedness}},
-	journal = {arXiv},
-	year = {2020},
-	month = {Dec},
-	eprint = {2012.04751},
-	url = {https://arxiv.org/abs/2012.04751v1}
+@inproceedings{grbic2021evocraft,
+  title={EvoCraft: A new challenge for open-endedness},
+  author={Grbic, Djordje and Palm, Rasmus Berg and Najarro, Elias and Glanois, Claire and Risi, Sebastian},
+  booktitle={International Conference on the Applications of Evolutionary Computation (Part of EvoStar)},
+  pages={325--340},
+  year={2021},
+  organization={Springer}
 }
  
 
